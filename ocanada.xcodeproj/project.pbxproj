@@ -17,6 +17,15 @@
 		9D1A7CBB1F085D7F00669D60 /* prodos_template.dsk */ = {isa = PBXFileReference; lastKnownFileType = file; name = prodos_template.dsk; path = make/prodos_template.dsk; sourceTree = "<group>"; };
 		9D1A7CBC1F085D7F00669D60 /* tail.mk */ = {isa = PBXFileReference; lastKnownFileType = text; name = tail.mk; path = make/tail.mk; sourceTree = "<group>"; };
 		9D1A7CBD1F085D7F00669D60 /* V2Make.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; name = V2Make.scpt; path = make/V2Make.scpt; sourceTree = "<group>"; };
+		9D1A7CC31F085DA800669D60 /* flag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = flag.c; sourceTree = "<group>"; };
+		9D1A7CC41F085DA800669D60 /* flag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flag.h; sourceTree = "<group>"; };
+		9D1A7CC51F085DA800669D60 /* song.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = song.c; sourceTree = "<group>"; };
+		9D1A7CC61F085DA800669D60 /* song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
+		9D1A7CC71F085DA800669D60 /* mockingboard_speech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mockingboard_speech.h; sourceTree = "<group>"; };
+		9D1A7CC81F085DA800669D60 /* mockingboard_speech.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = mockingboard_speech.s; sourceTree = "<group>"; };
+		9D1A7CC91F085DA800669D60 /* mockingboard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mockingboard.c; sourceTree = "<group>"; };
+		9D1A7CCA1F085DA800669D60 /* mockingboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mockingboard.h; sourceTree = "<group>"; };
+		9D1A7CCB1F085DA800669D60 /* a2.lo.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = a2.lo.s; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -32,6 +41,15 @@
 			children = (
 				9D1A7CB31F085D7F00669D60 /* main.c */,
 				9D1A7CB41F085D7F00669D60 /* Makefile */,
+				9D1A7CC31F085DA800669D60 /* flag.c */,
+				9D1A7CC41F085DA800669D60 /* flag.h */,
+				9D1A7CC51F085DA800669D60 /* song.c */,
+				9D1A7CC61F085DA800669D60 /* song.h */,
+				9D1A7CC71F085DA800669D60 /* mockingboard_speech.h */,
+				9D1A7CC81F085DA800669D60 /* mockingboard_speech.s */,
+				9D1A7CC91F085DA800669D60 /* mockingboard.c */,
+				9D1A7CCA1F085DA800669D60 /* mockingboard.h */,
+				9D1A7CCB1F085DA800669D60 /* a2.lo.s */,
 				9D1A7CB51F085D7F00669D60 /* make */,
 			);
 			path = ocanada;
