@@ -11,10 +11,9 @@
 #include <tgi.h>
 #include <tgi/tgi-mode.h>
 
+#include "drivers/a2_lores_drv.h"
 #include "flag.h"
 
-// Extern symbols for graphics drivers
-extern char a2_lo;
 
 void initGraphics(void)
 {
@@ -24,7 +23,7 @@ void initGraphics(void)
         return;
     
     // Install drivers
-    tgi_install(&a2_lo);
+    tgi_install(&a2_lores_drv);
     
     tgi_init();
     
