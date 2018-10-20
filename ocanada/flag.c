@@ -9,7 +9,6 @@
 #include <apple2.h>
 #include <stdbool.h>
 #include <tgi.h>
-#include <tgi/tgi-mode.h>
 
 #include "drivers/a2_lores_drv.h"
 #include "flag.h"
@@ -38,14 +37,14 @@ void drawFlag(void)
 {
     initGraphics();
     
-    tgi_setcolor(LORES_MAGENTA);
+    tgi_setcolor(TGI_COLOR_MAGENTA);
     tgi_bar(0,0,9,39);
     tgi_bar(30,0,39,39);
     
-    tgi_setcolor(LORES_WHITE);
+    tgi_setcolor(TGI_COLOR_WHITE);
     tgi_bar(10,0,29,39);
     
-    tgi_setcolor(LORES_MAGENTA);
+    tgi_setcolor(TGI_COLOR_MAGENTA);
     tgi_bar(19,4,20,34);
     tgi_line(18,7,18,26);
     tgi_line(21,7,21,26);
