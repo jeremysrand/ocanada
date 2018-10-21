@@ -27,7 +27,7 @@ void initGraphics(void)
     tgi_init();
     
     // Mixed text and graphics mode
-    asm ("STA %w", 0xc053);
+    tgi_apple2_mix(1);
     
     tgi_inited = true;
 }
