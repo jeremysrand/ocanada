@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D1A7CB11F085D7F00669D60"
+               BlueprintIdentifier = "9D0B917C1F526C2D004D7E0B"
                BuildableName = "ocanada"
                BlueprintName = "ocanada"
                ReferencedContainer = "container:ocanada.xcodeproj">
@@ -34,23 +34,53 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <PathRunnable
+         runnableDebuggingMode = "0"
+         FilePath = "/usr/bin/make">
+      </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D1A7CB11F085D7F00669D60"
+            BlueprintIdentifier = "9D0B917C1F526C2D004D7E0B"
             BuildableName = "ocanada"
             BlueprintName = "ocanada"
             ReferencedContainer = "container:ocanada.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-C"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "$PROJECT_DIR/ocanada"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "OBJECT_FILE_DIR=$OBJECT_FILE_DIR"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "DERIVED_SOURCES_DIR=$DERIVED_SOURCES_DIR"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "TARGET_BUILD_DIR=$TARGET_BUILD_DIR"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "execute"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -63,7 +93,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D1A7CB11F085D7F00669D60"
+            BlueprintIdentifier = "9D0B917C1F526C2D004D7E0B"
             BuildableName = "ocanada"
             BlueprintName = "ocanada"
             ReferencedContainer = "container:ocanada.xcodeproj">
